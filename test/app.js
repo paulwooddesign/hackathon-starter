@@ -33,6 +33,14 @@ describe('GET /api', function() {
   });
 });
 
+describe('GET /test', function() {
+  it('should return 200 OK', function(done) {
+    request(app)
+      .get('/test')
+      .expect(200, done);
+  });
+});
+
 describe('GET /contact', function() {
   it('should return 200 OK', function(done) {
     request(app)
