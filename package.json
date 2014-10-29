@@ -56,7 +56,8 @@
     "uglify-js": "^2.4.15",
     "validator": "^3.22.0",
     "yui": "^3.18.0",
-    "socket.io": "^1.1.0"
+    "socket.io": "^1.1.0",
+    "node-sass": "^1.1.4"
   },
   "devDependencies": {
     "blessed": "^0.0.37",
